@@ -1,0 +1,128 @@
+@font-face {
+   font-family: 'Georgia';
+   src: url('../shelter/fonts/Georgia.woff2') format('woff2'), url('../shelter/fonts/Georgia.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html {
+	scroll-behavior: smooth; 
+}
+body{
+   min-height: 100vh;
+   min-width: 1280px;
+}
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+	min-height: 50px;
+}
+.start-screen,
+.header{
+   background: linear-gradient(to right, #3c322d 0%,#3c332f 46%,#000000 100%);
+}
+.start-screen-container,
+.header-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.logo, .nav{
+   margin-bottom: 90px;
+   margin-top: 30px;
+}
+.logo-title{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 32px;
+   color: #F1CDB3;
+   font-style: normal;
+   margin-bottom: 10px;
+   letter-spacing: 0.06em;
+}
+.logo-subtitle{
+   font-family: Arial;
+   font-style: normal;
+   font-size: 13px;
+   font-weight: 400;
+   color: #ffff;
+   letter-spacing: 0.1em;
+}
+.nav{
+   min-width: 443px;
+   max-height: 27px;
+}
+.nav-list{
+	display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   list-style: none;
+   padding-bottom: 17px;
+   padding-top: 16px;
+   
+}
+.nav-link{
+   text-decoration: none;
+   color: #CDCDCD;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+}
+.start-screen-container{
+   max-height: 728px;
+}
+h1{
+   /* position: absolute; */
+   width: 310px;
+   height: 114px;
+   bottom: 208px;
+   font-family: 'Georgia';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 44px;
+   line-height: 130%;
+   color: #FFFFFF;
+}
+.start-screen .subheading{
+   /* position: absolute; */
+   width: 460px;
+   height: 72px;
+   bottom: 94px;
+   font-family: 'Arial';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 160%;
+   /* display: flex;
+   align-items: center; */
+   color: #CDCDCD;
+}
+.btn{
+   padding: 15px 45px;
+   font-family: 'Georgia';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   letter-spacing: 0.06em;
+   color: #292929;
+   width: 210px;
+   bottom: 0px;
+   background: #F1CDB3;
+   border-radius: 100px;
+}
+.start-screen .content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-top: 163px;
+   margin-bottom: 243px;
+   margin-right: 42px;
+}
